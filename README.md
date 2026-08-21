@@ -5,6 +5,8 @@ Jakob Nielsen's presents [10 general principles for interaction design](https://
 Conducting a heuristic evaluation allows you to systematically identify usability issues in your product. By reviewing your own tool in light of Nielsen’s principles, you may notice details that went unseen previously or violations of best practices you were unaware of. A heuristic evaluation like this can be applied to any user interface, meaning any digital product that a user interacts with: a website, an app, a command line tool, a software library, etc.
 
 ## How to use this tool
+Heuristic evaluation is an exercise that helps you get into a new headspace, one more focused on your users' experience with your product. The heuristics offer broad rules of thumb that you will have to think critically about to apply them to your tool.
+
 **General Process:**
 1. Create a fork of this repo for you to work in.
 2. Review all of the heuristics and their prompt questions. Some prompt questions may not apply to your type of software—that's okay, they're just there to inspire you and clarify the meaning of the heuristic.
@@ -67,6 +69,9 @@ Yes, you may not find problems associated with every heuristic. Sometimes this i
 
 **Can this be a team exercise?**
 Yes! This can ensure better coverage, though it should be noted that heuristic evaluation is like using a fine toothed comb and not all issues you identify may have a meaningful impact on usability. We recommend that individuals conduct their own reviews and then discuss the issues they found together so you can see which were most prominent among you and how you perceived their severity. 
+
+**How do I do this more quickly?**
+To cut down on time spent on a heuristic evaluation, avoid making recommendations or ranking the severity of an issue. You can also make just a single pass through the heuristics, rather than going back through and looking for missed issues. Don't fuss too much over which heuristic you've categorized an issue under—the key is that you adopted a user-centered perspective and have identified an issue.
 
 ## How we adapted the heuristics
 The [STRUDEL](https://strudel.science/) team [first adapted](https://zenodo.org/records/20517042) Nielsen's heuristics, adding additional prompt questions and creating a workbook for people to document issues in. [PESO](https://pesoproject.org/) and [CASS](https://cass.community/) then worked with five scientific software developers to further improve the usability of this tool. PESO and CASS asked the developers to conduct evaluations with the STRUDEL workbook and interviewed them about their experiences afterward. Common issues were noted and revisions were subsequently made. Some notable findings were:
