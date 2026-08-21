@@ -5,8 +5,8 @@
 [when done, summarize your major findings here]
 
 ## 1 - Visibility of System’s Current Status
-The design of your product should always keep users informed about what is going on, through appropriate feedback within a reasonable amount of time. 
-- Does the design clearly communicate its state, including during “processing”  or “thinking” periods or when a timeout error occurs? 
+Your product should always keep users informed about what is going on, through appropriate feedback within a reasonable amount of time. 
+- Does the tool clearly communicate its state, including during “processing”  or “thinking” periods or when a timeout error occurs? 
 - Is feedback presented quickly after user actions?
 - When an action is cancelled, is it clear what the new system status is?
 
@@ -19,9 +19,9 @@ The design of your product should always keep users informed about what is going
     -   *Recommendation:* [optional, your recommendation here]
 
 ## 2 - Match Between System and the Real World
-The system should reflect norms that its users are already familiar with. The design should speak the users' language. Use words, phrases, and concepts familiar to a new user, rather than internal jargon. Follow real-world conventions, making information appear in a natural and logical order. 
-- Will users be familiar with the terminology used in the design or commands? 
-- Do the design’s controls follow real-world conventions and workflows?
+The system should reflect norms that its users are already familiar with. The tool should speak the users' language. Use words, phrases, and concepts familiar to a new user, rather than internal jargon. Follow real-world conventions, making information appear in a natural and logical order. 
+- Will users be familiar with the terminology used in the interface or commands? 
+- Do the tool’s controls follow real-world conventions and workflows?
 - Do commands follow similar patterns to those used by competing or related products?
 - Are the system outputs in a form the user can directly leverage for subsequent tasks?
 
@@ -36,7 +36,7 @@ The system should reflect norms that its users are already familiar with. The de
 ## 3 - User Control and Freedom
 Users should be able to easily perform actions and undo them. Users often perform actions by mistake. They need a clearly marked "emergency exit" to leave the unwanted action without having to go through an extended process. 
 - Are available options obvious to users?
-- Does the design allow users to go back a step in the process? 
+- Does the tool allow users to go back a step in the process? 
 - Are exits easily discoverable to new users? 
 - Can users easily cancel an action? 
 - Is Undo and Redo supported?
@@ -51,9 +51,9 @@ Users should be able to easily perform actions and undo them. Users often perfor
       
 ## 4 - Consistency and Standards
 Users should not have to wonder whether different words, situations, or actions mean the same thing. Follow platform, industry, and disciplinary conventions. Place information where users have been trained to expect it.
-- Does the design follow common conventions, including information organization norms? 
+- Does the tool follow common conventions, including information organization norms? 
 - Is care taken to avoid calling the same thing by multiple names?
-- Are visual treatments used consistently throughout the design?
+- Are visual treatments used consistently throughout?
 - Are your docs organized into standard sections, including information on install and dependencies up front?
   
 **Issues:**
@@ -65,9 +65,9 @@ Users should not have to wonder whether different words, situations, or actions 
     -   *Recommendation:* [optional, your recommendation here]
       
 ## 5 - Error Prevention
-Good error messages are important, but the best designs carefully prevent problems from occurring in the first place. Either eliminate error-prone conditions, or check for them and present users with a confirmation option before they commit to the action. 
-- Does the design prevent slips by using helpful constraints? 
-- Does the design warn users or introduce useful friction before they perform risky actions?
+Good error messages are important, but the best tools carefully prevent problems from occurring in the first place. Either eliminate error-prone conditions, or check for them and present users with a confirmation option before they commit to the action. 
+- Does the tool prevent slips by using helpful constraints? 
+- Does the tool warn users or introduce useful friction before they perform risky actions?
 - Are appropriate defaults selected?
 - Are there appropriate guardrails in place to ensure a user only works “dangerously” when it is safe to do so?
 - Is input validation used when possible?
