@@ -5,7 +5,7 @@ Jakob Nielsen's presents [10 general principles for interaction design](https://
 Conducting a heuristic evaluation allows you to systematically identify usability issues in your product. By reviewing your own tool in light of Nielsen’s principles, you may notice details that went unseen previously or violations of best practices you were unaware of. A heuristic evaluation like this can be applied to any user interface, meaning any digital product that a user interacts with: a website, an app, a command line tool, a software library, etc.
 
 ## How to use this tool
-Heuristic evaluation is an exercise that helps you get into a new headspace, one more focused on your users' experience with your product. The heuristics offer broad rules of thumb that you will have to think critically about to apply them to your tool.
+Heuristic evaluation is an exercise that helps you get into a new headspace, one more focused on your users' experience with your product. These heuristics are broad guidelines; applying them effectively requires critical thinking. Through your heuristic evaluation, you will be able to make more informed design and development decisions.
 
 **General Process:**
 1. Create a fork of this repo for you to work in.
