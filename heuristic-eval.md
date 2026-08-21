@@ -53,7 +53,6 @@ Users should be able to easily perform actions and undo them. Users often perfor
 Users should not have to wonder whether different words, situations, or actions mean the same thing. Follow platform, industry, and disciplinary conventions. Place information where users have been trained to expect it. Use intuitive, predictable patterns and consistent naming conventions to ensure commands are easily remembered.
 - Does the tool follow common conventions, including information organization norms? 
 - Is care taken to avoid calling the same thing by multiple names?
-- Are visual treatments used consistently throughout?
 - Are your docs organized into standard sections, including information on install and dependencies up front?
   
 **Issues:**
@@ -111,10 +110,11 @@ Shortcuts — hidden from novice users — may speed up the interaction for the 
     -   *Recommendation:* [optional, your recommendation here]
       
 ## 8 - Aesthetic and Minimalist Design
-Interfaces should not contain information that is irrelevant or rarely needed. Every extra unit of information in an interface competes with the relevant units of information and diminishes their relative visibility. 
+Interfaces should not contain information that is irrelevant or rarely needed. Every extra unit of information in an interface competes with the relevant units of information and diminishes their relative visibility. Visual design should be consistent and not distracting.
 - Is the visual design and content focused on the essentials? 
 - Have all distracting, unnecessary elements been removed? 
 - Are symbols and emojis used to convey meaning and not just decorate?
+- Are visual treatments used consistently throughout?
   
 **Issues:**
 - [your issue here, possibly including an example]
