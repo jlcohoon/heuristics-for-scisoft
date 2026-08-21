@@ -6,16 +6,17 @@ Conducting a heuristic evaluation allows you to systematically identify usabilit
 
 ## How to use this tool
 **General Process:**
-1. Review all of the heuristics and their prompt questions. Some prompt questions may not apply to your type of software—that's okay, they're just there to inspire you and clarify the meaning of the heuristic.
-2. Read the FAQs below if you haven't already.
-3. Quickly re-familiarize yourself with the workflow or feature you will evaluate. Depending on the tool, it may be feasible for you to conduct a full review, but heuristic evaluation can be time consuming, taking several hours. We recommend focusing on a workflow or feature so that you do not become overwhelmed. Record, in the provided space, which tool and feature or workflow you are evaluating.
-4. Re-review the workflow or feature, this time more slowly, walking through a typical user journey (i.e. the usual steps a user would follow) and assigning issues to the relevant heuristics in whatever order you encounter them. Replace the placeholder text with a description of the problem you see.
+1. Create a fork of this repo for you to work in.
+2. Review all of the heuristics and their prompt questions. Some prompt questions may not apply to your type of software—that's okay, they're just there to inspire you and clarify the meaning of the heuristic.
+3. Read the FAQs below if you haven't already.
+4. Quickly re-familiarize yourself with the workflow or feature you will evaluate. Depending on the tool, it may be feasible for you to conduct a full review, but heuristic evaluation can be time consuming, taking several hours. We recommend focusing on a workflow or feature so that you do not become overwhelmed. Record, in the provided space, which tool and feature or workflow you are evaluating.
+5. Re-review the workflow or feature, this time more slowly, walking through a typical user journey (i.e. the usual steps a user would follow) and assigning issues to the relevant heuristics in whatever order you encounter them. Replace the placeholder text with a description of the problem you see.
     1. Include screenshots and examples as needed for clarity.
     2. You may choose to make a recommendation on how to address the issue, though there are often many ways to resolve problems and you might benefit from a group discussion before asserting a solution.
     3. You may choose to include a severity ranking. See below for how to do this.
-5. Before completing your work, read through the heuristics one by one, adding any issues you may have missed and recategorizing issues as you see fit.
-6. At the top of the document, summarize the major issues you found or general trends you see.
-7. If there is a development team to share your review with, we recommend you share your documented work and then discuss to prioritize issues, determine the level of effort to address them, and develop solutions. Otherwise, do this prioritization and solutioning on your own.
+6. Before completing your work, read through the heuristics one by one, adding any issues you may have missed and recategorizing issues as you see fit.
+7. At the top of the document, summarize the major issues you found or general trends you see.
+8. If there is a development team to share your review with, we recommend you share your documented work and then discuss to prioritize issues, determine the level of effort to address them, and develop solutions. Otherwise, do this prioritization and solutioning on your own.
 
 **Assigning severity rankings:**
 
