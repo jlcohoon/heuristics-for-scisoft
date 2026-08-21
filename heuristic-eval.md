@@ -80,9 +80,9 @@ Good error messages are important, but the best tools carefully prevent problems
     -   *Recommendation:* [optional, your recommendation here]
       
 ## 6 - Recognition Rather Than Recall
-Minimize the user's memory load by making elements, actions, and options visible. The user should not have to remember information from one part of the interface to another. Information required to use the design (e.g. field labels or menu items) should be visible or easily retrievable when needed. 
-- Does the design keep important information visible, so that users do not have to memorize it? 
-- Does the design offer help in-context? 
+Minimize the user's memory load by making elements, actions, and options visible. The user should not have to remember information from one part of the interface to another. Information required to use the product (e.g. field labels or menu items) should be visible or easily retrievable when needed. 
+- Does the tool keep important information visible, so that users do not have to memorize it? 
+- Does the tool offer help in-context? 
 - Is it clear to a user where they are in the system or workflow?
 - Are interactive commands used to help new users of CLI tools gain familiarity with the system and available flags?
 - Are steps requiring copying and pasting from one place to another minimized?
@@ -96,8 +96,8 @@ Minimize the user's memory load by making elements, actions, and options visible
     -   *Recommendation:* [optional, your recommendation here]
       
 ## 7 - Flexibility and Efficiency of Use
-Shortcuts — hidden from novice users — may speed up the interaction for the expert user such that the design can cater to both inexperienced and experienced users. Allow users to tailor frequent actions. 
-- Does the design provide accelerators like keyboard shortcuts and touch gestures? 
+Shortcuts — hidden from novice users — may speed up the interaction for the expert user such that the product can cater to both inexperienced and experienced users. Allow users to tailor frequent actions. 
+- Does the tool provide accelerators like keyboard shortcuts and touch gestures? 
 - Is content and functionality personalized or customized for individual users?
 - Are users able to automate their workflow?
   
@@ -126,8 +126,8 @@ Interfaces should not contain information that is irrelevant or rarely needed. E
       
 ## 9 - Help Users Recognize, Diagnose, and Recover from Errors
 Error messages should be expressed in plain language (no error codes), precisely indicate the problem, and constructively suggest a solution. 
-- Does the design use traditional error message visuals, like bold, red text? 
-- Does the design offer a solution that solves the error immediately?
+- Does the tool use traditional error message visuals, like bold, red text? 
+- Does the tool offer a solution that solves the error immediately?
 - Is there a way to monitor ongoing processes?
 - Are log files available for reviewing issues?
 - Is it clear when an issue is related to a third-party?
