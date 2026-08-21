@@ -18,6 +18,8 @@ Conducting a heuristic evaluation allows you to systematically identify usabilit
 7. At the top of the document, summarize the major issues you found or general trends you see.
 8. If there is a development team to share your review with, we recommend you share your documented work and then discuss to prioritize issues, determine the level of effort to address them, and develop solutions. Otherwise, do this prioritization and solutioning on your own.
 
+You can repeat this heuristic evaluation exercise at regular intervals, ensuring that as your product evolves, you continue to deliver good user experiences.
+
 **Assigning severity rankings:**
 
 You may choose to assign a severity to the issues you identify. You can use your own system for this, or ours:
