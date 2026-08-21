@@ -129,7 +129,7 @@ Support for recovering from errors is important, but the best tools help users a
 ## 9 - Help Users Recognize, Diagnose, and Recover from Errors
 Error messages should be expressed in plain language (no error codes), precisely indicate the problem, and constructively suggest a solution. 
 - Does the tool use traditional error message visuals, like bold, red text? 
-- Does the tool offer a solution that solves the error immediately?
+- Does the tool or documentation offer a direct solution to solve the error or debugging techniques?
 - Is there a way to monitor ongoing processes?
 - Are log files available for reviewing issues?
 - Is it clear when an issue is related to a third-party?
