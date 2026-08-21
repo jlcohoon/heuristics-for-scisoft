@@ -94,12 +94,13 @@ Offer efficiency tools that can be leveraged by users as they gain confidence. S
     -   *Severity:* [critical/moderate/minor, often/sometimes/rarely]
     -   *Recommendation:* [optional, your recommendation here]
       
-## 7 - Aesthetic and Minimalist Design
-Interfaces should not contain information that is irrelevant or rarely needed. Every extra unit of information in an interface competes with the relevant units of information and diminishes their relative visibility. Visual design should be consistent and not distracting.
-- Is the visual design and content focused on the essentials? 
+## 7 - Direct Attention Judiciously
+Interfaces should not contain information that is irrelevant or rarely needed. Every extra unit of information in an interface competes with the relevant units of information and diminishes their relative visibility. Visual design should be consistent, not distracting, and used to focus users' attention where it is most needed.
 - Have all distracting, unnecessary elements been removed? 
-- Are symbols and emojis used to convey meaning and not just decorate?
-- Are visual treatments used consistently throughout?
+- Are symbols and images used to convey meaning and not just decorate?
+- Are visual treatments used consistently throughout, reducing visual clutter?
+- Is the visual design and content focused on the essentials?
+- Do you use size, contrast, and proximity to focus users' attention on the most important content?
   
 **Issues:**
 - [your issue here, possibly including an example]
