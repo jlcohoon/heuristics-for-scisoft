@@ -5,10 +5,12 @@
 [when done, summarize your major findings here]
 
 ## 1 - Visibility of System’s Current Status
-Your product should always keep users informed about what is going on, through appropriate feedback within a reasonable amount of time. 
+Your product should always keep users informed about what is going on, through appropriate feedback within a reasonable amount of time. Information about the code's status as well as what the system is doing while in use should be available.
 - Does the tool clearly communicate its state, including during “processing”  or “thinking” periods or when a timeout error occurs? 
 - Is feedback presented quickly after user actions?
 - When an action is cancelled, is it clear what the new system status is?
+- Are release notes available to users?
+- Is it clear which branch is stable?
 
 **Issues:**
 - [your issue here, possibly including an example]
