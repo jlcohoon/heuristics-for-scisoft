@@ -20,13 +20,29 @@ Your product should always keep users informed about what is going on, through a
     -   *Severity:* [critical/moderate/minor, often/sometimes/rarely]
     -   *Recommendation:* [optional, your recommendation here]
 
-## 2 - Match Between System and Users' Expectations
-The system should reflect norms that its users are already familiar with. The tool should speak the users' language (whether that's a scientific domain or software engineering terminology). Use words, phrases, and concepts familiar to a new user, rather than internal jargon. Follow conventions your anticipated users will be familiar with, making information appear in a natural and logical order. 
+## 2 - Match Between System and A Priori Expectations
+The system should reflect norms that its users are already familiar with so that the tool behaves as they expect. The tool should speak the users' language (whether that's a scientific domain or software engineering terminology) rather than use internal jargon. Follow conventions your anticipated users will be familiar with.
 - Will users be familiar with the terminology used in the interface or commands? 
-- Do the tool’s controls follow real-world conventions and workflows?
-- Do commands and workflows follow similar patterns to those used by competing or related products?
+- Do the tool’s controls follow conventions and workflows users will already know?
 - Are the system outputs in a form the user can directly leverage for subsequent tasks?
-- Is information where users will expect it?
+- Are settings located where users will easily find them?
+- Are your docs organized into standard sections, including information on install and dependencies up front?
+
+**Issues:**
+- [your issue here, possibly including an example]
+    -   *Severity:* [critical/moderate/minor, often/sometimes/rarely]
+    -   *Recommendation:* [optional, your recommendation here]
+- [another issue here, possibly including an example]
+    -   *Severity:* [critical/moderate/minor, often/sometimes/rarely]
+    -   *Recommendation:* [optional, your recommendation here]
+      
+## 3 - Internal Consistency
+Maintain consistent patterns so that users can easily learn to use and navigate your product. Users should not have to wonder whether different words, situations, or actions mean the same thing. Use intuitive, predictable patterns and consistent naming conventions to ensure commands are easily remembered. 
+- Is care taken to avoid calling the same thing by multiple names?
+- Are visual treatments used consistently throughout?
+- Do command-line flags, arguments, and naming conventions follow a predictable pattern throughout the tool?
+- Are the "exit" or "cancel" paths consistent across all workflows?
+- Do similar actions produce similar results (e.g., If "Delete" asks for confirmation in one menu, does it also ask for it in another?)
 
 **Issues:**
 - [your issue here, possibly including an example]
@@ -36,7 +52,7 @@ The system should reflect norms that its users are already familiar with. The to
     -   *Severity:* [critical/moderate/minor, often/sometimes/rarely]
     -   *Recommendation:* [optional, your recommendation here]
 
-## 3 - User Control and Freedom
+## 4 - User Control and Freedom
 Users should be able to easily perform actions and undo them. Users often perform actions by mistake. They need a clearly marked "emergency exit" to leave the unwanted action without having to go through an extended process. 
 - Are available options obvious to users?
 - Does the tool allow users to go back a step in the process? 
@@ -51,21 +67,7 @@ Users should be able to easily perform actions and undo them. Users often perfor
 - [another issue here, possibly including an example]
     -   *Severity:* [critical/moderate/minor, often/sometimes/rarely]
     -   *Recommendation:* [optional, your recommendation here]
-      
-## 4 - Consistency and Standards
-Users should not have to wonder whether different words, situations, or actions mean the same thing. Follow platform, industry, and disciplinary conventions. Place information where users have been trained to expect it. Use intuitive, predictable patterns and consistent naming conventions to ensure commands are easily remembered.
-- Does the tool follow common conventions, including information organization norms? 
-- Is care taken to avoid calling the same thing by multiple names?
-- Are your docs organized into standard sections, including information on install and dependencies up front?
-  
-**Issues:**
-- [your issue here, possibly including an example]
-    -   *Severity:* [critical/moderate/minor, often/sometimes/rarely]
-    -   *Recommendation:* [optional, your recommendation here]
-- [another issue here, possibly including an example]
-    -   *Severity:* [critical/moderate/minor, often/sometimes/rarely]
-    -   *Recommendation:* [optional, your recommendation here]
-      
+            
 ## 5 - Recognition Rather Than Recall
 Minimize the user's memory load by making elements, actions, and options visible. The user should not have to remember information from one part of the interface to another. Information required to use the product (e.g. field labels or menu items) should be visible or easily retrievable when needed. 
 - Does the tool keep important information visible, so that users do not have to memorize it? 
@@ -103,7 +105,6 @@ Ensure your tool adapts to the full range of user needs, scales, and skill level
 Interfaces should not contain information that is irrelevant or rarely needed. Every extra unit of information in an interface competes with the relevant units of information and diminishes their relative visibility. Visual design should be consistent, not distracting, and used to focus users' attention where it is most needed.
 - Have all distracting, unnecessary elements been removed? 
 - Are symbols and images used to convey meaning and not just decorate?
-- Are visual treatments used consistently throughout, reducing visual clutter?
 - Is the visual design and content focused on the essentials?
 - Do you use size, contrast, and proximity to focus users' attention on the most important content?
   
