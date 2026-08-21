@@ -20,12 +20,13 @@ Your product should always keep users informed about what is going on, through a
     -   *Severity:* [critical/moderate/minor, often/sometimes/rarely]
     -   *Recommendation:* [optional, your recommendation here]
 
-## 2 - Match Between System and the Real World
-The system should reflect norms that its users are already familiar with. The tool should speak the users' language. Use words, phrases, and concepts familiar to a new user, rather than internal jargon. Follow real-world conventions, making information appear in a natural and logical order. 
+## 2 - Match Between System and Users' Expectations
+The system should reflect norms that its users are already familiar with. The tool should speak the users' language (whether that's a scientific domain or software engineering terminology). Use words, phrases, and concepts familiar to a new user, rather than internal jargon. Follow conventions your anticipated users will be familiar with, making information appear in a natural and logical order. 
 - Will users be familiar with the terminology used in the interface or commands? 
 - Do the tool’s controls follow real-world conventions and workflows?
-- Do commands follow similar patterns to those used by competing or related products?
+- Do commands and workflows follow similar patterns to those used by competing or related products?
 - Are the system outputs in a form the user can directly leverage for subsequent tasks?
+- Is information where users will expect it?
 
 **Issues:**
 - [your issue here, possibly including an example]
