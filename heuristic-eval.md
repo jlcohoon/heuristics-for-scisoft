@@ -80,9 +80,9 @@ Minimize the user's memory load by making elements, actions, and options visible
     -   *Recommendation:* [optional, your recommendation here]
       
 ## 6 - Flexibility and Efficiency of Use
-Shortcuts — hidden from novice users — may speed up the interaction for the expert user such that the product can cater to both inexperienced and experienced users. Allow users to tailor frequent actions. 
+Offer efficiency tools that can be leveraged by users as they gain confidence. Shortcuts — hidden to not distract novice users — may speed up the interaction for the expert user. Allow users to tailor frequent actions. 
 - Does the tool provide accelerators like keyboard shortcuts and touch gestures? 
-- Is content and functionality personalized or customized for individual users?
+- Is content and functionality personalized or customized for individual users so they more quickly get to what they want?
 - Are users able to automate their workflow?
   
 **Issues:**
