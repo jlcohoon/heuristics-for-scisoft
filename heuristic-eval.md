@@ -63,23 +63,7 @@ Users should not have to wonder whether different words, situations, or actions 
     -   *Severity:* [critical/moderate/minor, often/sometimes/rarely]
     -   *Recommendation:* [optional, your recommendation here]
       
-## 5 - Error Prevention
-Good error messages are important, but the best tools carefully prevent problems from occurring in the first place. Either eliminate error-prone conditions, or check for them and present users with a confirmation option before they commit to the action. 
-- Does the tool prevent slips by using helpful constraints? 
-- Does the tool warn users or introduce useful friction before they perform risky actions?
-- Are appropriate defaults selected?
-- Are there appropriate guardrails in place to ensure a user only works “dangerously” when it is safe to do so?
-- Is input validation used when possible?
-  
-**Issues:**
-- [your issue here, possibly including an example]
-    -   *Severity:* [critical/moderate/minor, often/sometimes/rarely]
-    -   *Recommendation:* [optional, your recommendation here]
-- [another issue here, possibly including an example]
-    -   *Severity:* [critical/moderate/minor, often/sometimes/rarely]
-    -   *Recommendation:* [optional, your recommendation here]
-      
-## 6 - Recognition Rather Than Recall
+## 5 - Recognition Rather Than Recall
 Minimize the user's memory load by making elements, actions, and options visible. The user should not have to remember information from one part of the interface to another. Information required to use the product (e.g. field labels or menu items) should be visible or easily retrievable when needed. 
 - Does the tool keep important information visible, so that users do not have to memorize it? 
 - Does the tool offer help in-context? 
@@ -95,7 +79,7 @@ Minimize the user's memory load by making elements, actions, and options visible
     -   *Severity:* [critical/moderate/minor, often/sometimes/rarely]
     -   *Recommendation:* [optional, your recommendation here]
       
-## 7 - Flexibility and Efficiency of Use
+## 6 - Flexibility and Efficiency of Use
 Shortcuts — hidden from novice users — may speed up the interaction for the expert user such that the product can cater to both inexperienced and experienced users. Allow users to tailor frequent actions. 
 - Does the tool provide accelerators like keyboard shortcuts and touch gestures? 
 - Is content and functionality personalized or customized for individual users?
@@ -109,12 +93,28 @@ Shortcuts — hidden from novice users — may speed up the interaction for the 
     -   *Severity:* [critical/moderate/minor, often/sometimes/rarely]
     -   *Recommendation:* [optional, your recommendation here]
       
-## 8 - Aesthetic and Minimalist Design
+## 7 - Aesthetic and Minimalist Design
 Interfaces should not contain information that is irrelevant or rarely needed. Every extra unit of information in an interface competes with the relevant units of information and diminishes their relative visibility. Visual design should be consistent and not distracting.
 - Is the visual design and content focused on the essentials? 
 - Have all distracting, unnecessary elements been removed? 
 - Are symbols and emojis used to convey meaning and not just decorate?
 - Are visual treatments used consistently throughout?
+  
+**Issues:**
+- [your issue here, possibly including an example]
+    -   *Severity:* [critical/moderate/minor, often/sometimes/rarely]
+    -   *Recommendation:* [optional, your recommendation here]
+- [another issue here, possibly including an example]
+    -   *Severity:* [critical/moderate/minor, often/sometimes/rarely]
+    -   *Recommendation:* [optional, your recommendation here]
+
+## 8 - Guardrails for Error Prevention
+Support for recovering from errors is important, but the best tools help users avoid committing errors in the first place. Eliminate error-prone conditions or check for them and present users with a confirmation option before they commit to the action. Shepherd users through complex actions step-by-step so they don't make mistakes.
+- Does the tool prevent slips by using helpful constraints? 
+- Does the tool warn users or introduce useful friction before they perform risky actions?
+- Are appropriate defaults selected?
+- Are there appropriate guardrails in place to ensure a user only works “dangerously” when it is safe to do so?
+- Is input validation used when possible?
   
 **Issues:**
 - [your issue here, possibly including an example]
