@@ -82,11 +82,13 @@ Minimize the user's memory load by making elements, actions, and options visible
     -   *Recommendation:* [optional, your recommendation here]
       
 ## 6 - Flexibility and Efficiency of Use
-Offer efficiency tools that can be leveraged by users as they gain confidence. Shortcuts — hidden to not distract novice users — may speed up the interaction for the expert user. Allow users to tailor frequent actions. 
+Ensure your tool adapts to the full range of user needs, scales, and skill levels you anticipate, providing a flexible experience that remains efficient as users grow in expertise and work becomes more complicated. Shortcuts—hidden to not distract novice users—may speed up the interaction for the expert user. Allow users to tailor frequent actions. Design the product so that different relevant scales and workflows are supported.
 - Does the tool provide accelerators like keyboard shortcuts and touch gestures? 
 - Is content and functionality personalized or customized for individual users so they more quickly get to what they want?
+- Does the interface work well for both small and large workloads?
 - Are users able to automate their workflow?
 - Does the documentation describe both simple and advanced workflows?
+- Is it easy to construct both a simple and complex workflows?
   
 **Issues:**
 - [your issue here, possibly including an example]
