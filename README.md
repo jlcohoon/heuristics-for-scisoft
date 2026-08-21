@@ -9,12 +9,16 @@ Conducting a heuristic evaluation allows you to systematically identify usabilit
 1. Review all of the heuristics and their prompt questions. Some prompt questions may not apply to your type of software—that's okay, they're just there to inspire you and clarify the meaning of the heuristic.
 2. Read the FAQs below if you haven't already.
 3. Quickly re-familiarize yourself with the workflow or feature you will evaluate. Depending on the tool, it may be feasible for you to conduct a full review, but heuristic evaluation can be time consuming, taking several hours. We recommend focusing on a workflow or feature so that you do not become overwhelmed. Record, in the provided space, which tool and feature or workflow you are evaluating.
-4. Re-review the workflow or feature, this time more slowly, walking through a typical user journey (i.e. the usual steps a user would follow) and assigning issues to the relevant heuristics in whatever order you encounter them. Replace the placeholder text, "[your issue here]," with a description of the problem you see.
+4. Re-review the workflow or feature, this time more slowly, walking through a typical user journey (i.e. the usual steps a user would follow) and assigning issues to the relevant heuristics in whatever order you encounter them. Replace the placeholder text with a description of the problem you see.
     1. Include screenshots and examples as needed for clarity.
     2. You may choose to make a recommendation on how to address the issue, though there are often many ways to resolve problems and you might benefit from a group discussion before asserting a solution.
-    3. Then, before completing your work, read through the heuristics one by one, adding any issues you may have missed and recategorizing issues as you see fit. 
-5. If there is a development team to share your review with, we recommend you share your documented work and then discuss to prioritize issues, determine the level of effort to address them, and develop solutions. Otherwise, do this prioritization and solutioning on your own.
-   
+    3. You may choose to include a severity ranking. See below for how to do this.
+5. Before completing your work, read through the heuristics one by one, adding any issues you may have missed and recategorizing issues as you see fit.
+6. At the top of the document, summarize the major issues you found or general trends you see.
+7. If there is a development team to share your review with, we recommend you share your documented work and then discuss to prioritize issues, determine the level of effort to address them, and develop solutions. Otherwise, do this prioritization and solutioning on your own.
+
+**Assigning severity rankings:**
+
 You may choose to assign a severity to the issues you identify. You can use your own system for this, or ours:
 - **Critical:** Prevents users from completing a task (e.g., broken functionality or unclear instructions) or has significant impact on the product’s ability to deliver its value proposition
 - **Moderate:** Slows users down or causes frustration but doesn’t prevent task completion or impact delivery of value proposition
@@ -29,28 +33,18 @@ We further recommend noting how often users are likely to be affected by the iss
 ### Example: Evaluating a Data Catalog
 
 ***Heuristic #4 - Consistency and Standards***
-
-Empty fields are denoted in multiple ways and with different text formatting, for example:
-
-“No data available.” “No data found” “-” “--” “No Tags added” “No Description” “No description”
-
-*Severity:* minor, often
-
-*Recommendation:* Apply a consistent scheme for indicating a lack of information, including punctuation and capitalization. 
+- Empty fields are denoted in multiple ways and with different text formatting, for example: “No data available.” “No data found” “-” “--” “No Tags added” “No Description” “No description”
+    - *Severity:* minor, often
+    - *Recommendation:* Apply a consistent scheme for indicating a lack of information, including punctuation and capitalization. 
 Ensure that it is clear whether the data cannot be retrieved or if it was never provided.
 
 
 ### Example: Evaluating an AI agent with chat interface
 
 ***Heuristic #1 - Visibility of System Status***
-
-Queries are not named/IDed but previous queries are discussed by the agent, making it ambiguous what is the object of discussion.
-
-For example: The agent says, “Let me check what went wrong with the query,” and “Let me wait and check the status,” but doesn’t say which query is being checked.
-
-*Severity:* moderate, often
-
-*Recommendation:* Provide IDs for queries so that they can be explicitly referenced.
+- Queries are not named/IDed but previous queries are discussed by the agent, making it ambiguous what is the object of discussion. For example: The agent says, “Let me check what went wrong with the query,” and “Let me wait and check the status,” but doesn’t say which query is being checked.
+    - *Severity:* moderate, often
+    - *Recommendation:* Provide IDs for queries so that they can be explicitly referenced.
 
 ## FAQ
 **Isn’t this subjective?**
@@ -84,4 +78,4 @@ The [STRUDEL](https://strudel.science/) team [first adapted](https://zenodo.org/
 Based on these findings and the examples produced by the five developers, we updated the instructions and FAQs, reworded the titles and descriptions of some heuristics, revised prompt questions, and transitioned away from Google Docs to Github. 
 
 ## Contact
-If you encounter issues with this documentation or during your heuristic evaluation, reach out to the [CASS User/Developer Experience working group](https://cass.community/working-groups/user-developer-experience.html) via email or during one of their regular discussion hours. You may also [open an issue](/issues).
+If you encounter issues with this documentation or during your heuristic evaluation, reach out to the [CASS User/Developer Experience working group](https://cass.community/working-groups/user-developer-experience.html) via email or during one of their regular discussion hours. You may also [open an issue](/../../issues).
