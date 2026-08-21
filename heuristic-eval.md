@@ -50,7 +50,7 @@ Users should be able to easily perform actions and undo them. Users often perfor
     -   *Recommendation:* [optional, your recommendation here]
       
 ## 4 - Consistency and Standards
-Users should not have to wonder whether different words, situations, or actions mean the same thing. Follow platform, industry, and disciplinary conventions. Place information where users have been trained to expect it.
+Users should not have to wonder whether different words, situations, or actions mean the same thing. Follow platform, industry, and disciplinary conventions. Place information where users have been trained to expect it. Use intuitive, predictable patterns and consistent naming conventions to ensure commands are easily remembered.
 - Does the tool follow common conventions, including information organization norms? 
 - Is care taken to avoid calling the same thing by multiple names?
 - Are visual treatments used consistently throughout?
