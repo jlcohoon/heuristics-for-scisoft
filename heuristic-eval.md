@@ -84,6 +84,7 @@ Offer efficiency tools that can be leveraged by users as they gain confidence. S
 - Does the tool provide accelerators like keyboard shortcuts and touch gestures? 
 - Is content and functionality personalized or customized for individual users so they more quickly get to what they want?
 - Are users able to automate their workflow?
+- Does the documentation describe both simple and advanced workflows?
   
 **Issues:**
 - [your issue here, possibly including an example]
