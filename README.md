@@ -74,11 +74,11 @@ We further recommend noting how often users are likely to be affected by the iss
     - *Severity:* moderate, sometimes
     - *Recommendation:* Improve the documentation for people that are not familiar with the intricacies of math theory of sparse grids and hence may struggle to understand why some methods are disabled or throw exceptions. Make clearer what methods are available under what circumstances
 
-### Example: Evaluating a data catalog
+### Example: Evaluating a debugging tool
 ***Heuristic #6 - Flexibility and Efficiency of Use***
-- Users have no way of quickly getting to their most important datasets—they have to search or scroll through all of their datasets to find the ones they are looking for, even if they visit it daily.
-    - *Severity:* moderate, often
-    - *Recommendation:* Allow users to bookmark datasets and display those prominently so they can be accessed very quickly
+- Graphical user interface as only interface for interactive debugging can be cumbersome/challenging to use with HPC systems.  E.g., lag in updates, difficult to get displayed at all).
+    - *Severity:* moderate, sometimes
+    - *Recommendation:* Although tool has an offline mode (scripting, not interactive) would really like to see a terminal-friendly interface option (TUI or REPL.)
 
 ### Example: Evaluating a data catalog
 ***Heuristic #7 - Direct Attention Judiciously***
