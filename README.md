@@ -1,6 +1,14 @@
 # An Approach to Heuristic Evaluation for Scientific Software
 Jakob Nielsen, a leading authority on usability, established [10 general principles for interaction design](https://www.nngroup.com/articles/ten-usability-heuristics/). These *heuristics* define best practices for implementing intuitive user experiences. However, scientific software developers often struggle to apply these heuristics to their work, as their software may requires complex interfaces or have no GUI. To bridge this gap, the [PESO project](https://pesoproject.org/) and [CASS](https://cass.community/) have adapted Nielsen's heuristics for scientific software. Use this repo to learn the heuristics and conduct an evaluation of your own software tool.
 
+## Table of Contents
+1. [Why heuristic evaluation](#why-heuristic-evaluation)
+2. [How to use this tool](#how-to-use-this-tool)
+4. [Examples](#examples)
+5. [FAQ](#faq)
+6. [How we adapted the heuristics](#how-we-adapted-the-heuristics)
+7. [Contact and Get Involved](#contact-and-get-involved)
+
 ## Why heuristic evaluation
 Conducting a heuristic evaluation allows you to systematically identify usability issues in your product. By reviewing your own tool in light of these heuristics, you may notice details that went unseen previously or violations of best practices you were unaware of. A heuristic evaluation like this can be applied to any user interface, meaning any digital product that a user interacts with: a website, an app, a command line tool, a software library, etc.
 
@@ -128,5 +136,7 @@ The [STRUDEL](https://strudel.science/) team [first adapted](https://zenodo.org/
 
 Based on these findings and the examples produced by the five developers, we updated the instructions and FAQs, reworded the titles and descriptions of some heuristics, revised prompt questions, and transitioned away from Google Docs to Github. 
 
-## Contact
+## Contact and Get Involved
 If you encounter issues with this documentation or during your heuristic evaluation, reach out to the [CASS User/Developer Experience working group](https://cass.community/working-groups/user-developer-experience.html) via email or during one of their regular discussion hours. You may also [open an issue](/../../issues).
+
+We are seeking more examples of how people have applied the heuristic evaluation process to their software. Please get in touch or open a pull request to share your example. You can add a small one to the list above or we can link to your full evaluation.
