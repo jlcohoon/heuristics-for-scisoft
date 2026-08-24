@@ -1,6 +1,8 @@
 # An Approach to Heuristic Evaluation for Scientific Software
 Jakob Nielsen, a leading authority on usability, established [10 general principles for interaction design](https://www.nngroup.com/articles/ten-usability-heuristics/). These *heuristics* define best practices for implementing intuitive user experiences. However, scientific software developers often struggle to apply these heuristics to their work, as their software may requires complex interfaces or have no GUI. To bridge this gap, the [PESO project](https://pesoproject.org/) and [CASS](https://cass.community/) have adapted Nielsen's heuristics for scientific software. Use this repo to learn the heuristics and conduct an evaluation of your own software tool.
 
+Quick link to the evaluation template: [heuristic-eval.md](/heuristic-eval.md)
+
 ## Table of Contents
 1. [Why heuristic evaluation](#why-heuristic-evaluation)
 2. [How to use this tool](#how-to-use-this-tool)
@@ -17,9 +19,9 @@ Heuristic evaluation is an exercise that helps you step out of your usual perspe
 
 **General Process:**
 1. Create a fork of this repo for you to work in.
-2. Review all of the heuristics and their prompt questions. Some prompt questions may not apply to your type of software—that's okay, they're just there to inspire you and clarify the meaning of the heuristic.
+2. Review all of the heuristics in [heuristic-eval.md](/heuristic-eval.md) and their prompt questions. Some prompt questions may not apply to your type of software—that's okay, they're just there to inspire you and clarify the meaning of the heuristic.
 3. Quickly re-familiarize yourself with the workflow or feature you will evaluate. Depending on the tool, it may be feasible for you to conduct a full review, but heuristic evaluation can be time consuming, taking several hours. We recommend focusing on a workflow or feature so that you do not become overwhelmed. Record, in the provided space, which tool and feature or workflow you are evaluating.
-4. Re-review the workflow or feature, this time more slowly, walking through a typical user journey (i.e. the usual steps a user would follow) and assigning issues to the relevant heuristics in whatever order you encounter them. Replace the placeholder text with a description of the problem you see.
+4. Re-review the workflow or feature, this time more slowly, walking through a typical user journey (i.e. the usual steps a user would follow) and assigning issues to the relevant heuristics in whatever order you encounter them. Do this assignment in [heuristic-eval.md](/heuristic-eval.md). Replace the placeholder text with a description of the problem you see.
     1. Include screenshots and examples as needed for clarity.
     2. You may choose to make a recommendation on how to address the issue, though there are often many ways to resolve problems and you might benefit from a group discussion before asserting a solution.
     3. You may choose to include a severity ranking. See below for how to do this.
