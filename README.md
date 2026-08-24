@@ -76,7 +76,7 @@ We further recommend noting how often users are likely to be affected by the iss
 
 ### Example: Evaluating a debugging tool
 ***Heuristic #6 - Flexibility and Efficiency of Use***
-- Graphical user interface as only interface for interactive debugging can be cumbersome/challenging to use with HPC systems.  E.g., lag in updates, difficult to get displayed at all).
+- Graphical user interface as only interface for interactive debugging can be cumbersome/challenging to use with HPC systems, e.g., lag in updates, difficult to get displayed at all).
     - *Severity:* moderate, sometimes
     - *Recommendation:* Although tool has an offline mode (scripting, not interactive) would really like to see a terminal-friendly interface option (TUI or REPL.)
 
