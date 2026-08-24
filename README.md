@@ -1,24 +1,23 @@
 # An Approach to Heuristic Evaluation for Scientific Software
-Jakob Nielsen's presents [10 general principles for interaction design](https://www.nngroup.com/articles/ten-usability-heuristics/). These principles, also called heuristics, define best practices for implementing good user experiences. Scientific software developers often find these heuristics difficult to apply to their work, frequently because their software requires complex interfaces or has no GUI. The [PESO project](https://pesoproject.org/) and [CASS](https://cass.community/) have adapted Nielsen's heuristics so that they are more easily applied to scientific software. Use this repo to learn the heuristics and conduct an evaluation of a software tool.
+Jakob Nielsen, a leading authority on usability, established [10 general principles for interaction design](https://www.nngroup.com/articles/ten-usability-heuristics/). These *heuristics* define best practices for implementing intuitive user experiences. However, scientific software developers often struggle to apply these heuristics to their work, as their software may requires complex interfaces or have no GUI. To bridge this gap, the [PESO project](https://pesoproject.org/) and [CASS](https://cass.community/) have adapted Nielsen's heuristics for scientific software. Use this repo to learn the heuristics and conduct an evaluation of your own software tool.
 
 ## Why heuristic evaluation
-Conducting a heuristic evaluation allows you to systematically identify usability issues in your product. By reviewing your own tool in light of Nielsen’s principles, you may notice details that went unseen previously or violations of best practices you were unaware of. A heuristic evaluation like this can be applied to any user interface, meaning any digital product that a user interacts with: a website, an app, a command line tool, a software library, etc.
+Conducting a heuristic evaluation allows you to systematically identify usability issues in your product. By reviewing your own tool in light of these heuristics, you may notice details that went unseen previously or violations of best practices you were unaware of. A heuristic evaluation like this can be applied to any user interface, meaning any digital product that a user interacts with: a website, an app, a command line tool, a software library, etc.
 
 ## How to use this tool
-Heuristic evaluation is an exercise that helps you get into a new headspace, one more focused on your users' experience with your product. These heuristics are broad guidelines; applying them effectively requires critical thinking. Through your heuristic evaluation, you will be able to make more informed design and development decisions.
+Heuristic evaluation is an exercise that helps you step out of your usual perspective as a developer and focus more on how users actualy perceive your product. Because these heuristics are broad guidelines, applying them effectively requires critical thinking; it is normal to encounter a learning curve at first. By completing this evaluation, you will be better equipped to make informed design and development decisions.
 
 **General Process:**
 1. Create a fork of this repo for you to work in.
 2. Review all of the heuristics and their prompt questions. Some prompt questions may not apply to your type of software—that's okay, they're just there to inspire you and clarify the meaning of the heuristic.
-3. Read the FAQs below if you haven't already.
-4. Quickly re-familiarize yourself with the workflow or feature you will evaluate. Depending on the tool, it may be feasible for you to conduct a full review, but heuristic evaluation can be time consuming, taking several hours. We recommend focusing on a workflow or feature so that you do not become overwhelmed. Record, in the provided space, which tool and feature or workflow you are evaluating.
-5. Re-review the workflow or feature, this time more slowly, walking through a typical user journey (i.e. the usual steps a user would follow) and assigning issues to the relevant heuristics in whatever order you encounter them. Replace the placeholder text with a description of the problem you see.
+3. Quickly re-familiarize yourself with the workflow or feature you will evaluate. Depending on the tool, it may be feasible for you to conduct a full review, but heuristic evaluation can be time consuming, taking several hours. We recommend focusing on a workflow or feature so that you do not become overwhelmed. Record, in the provided space, which tool and feature or workflow you are evaluating.
+4. Re-review the workflow or feature, this time more slowly, walking through a typical user journey (i.e. the usual steps a user would follow) and assigning issues to the relevant heuristics in whatever order you encounter them. Replace the placeholder text with a description of the problem you see.
     1. Include screenshots and examples as needed for clarity.
     2. You may choose to make a recommendation on how to address the issue, though there are often many ways to resolve problems and you might benefit from a group discussion before asserting a solution.
     3. You may choose to include a severity ranking. See below for how to do this.
-6. Before completing your work, read through the heuristics one by one, adding any issues you may have missed and recategorizing issues as you see fit.
-7. At the top of the document, summarize the major issues you found or general trends you see.
-8. If there is a development team to share your review with, we recommend you share your documented work and then discuss to prioritize issues, determine the level of effort to address them, and develop solutions. Otherwise, do this prioritization and solutioning on your own.
+5. Before completing your work, read through the heuristics one by one, adding any issues you may have missed and recategorizing issues as you see fit.
+6. At the top of the document, summarize the major issues you found or general trends you see.
+7. If there is a development team to share your review with, we recommend you share your documented work and then discuss to prioritize issues, determine the level of effort to address them, and develop solutions. Otherwise, do this prioritization and solutioning on your own.
 
 You can repeat this heuristic evaluation exercise at regular intervals, ensuring that as your product evolves, you continue to deliver good user experiences.
 
@@ -34,22 +33,66 @@ We further recommend noting how often users are likely to be affected by the iss
 - **Sometimes:** A moderate proportion of your users are likely to encounter the issue *or* those who do encounter it do so occasionally
 - **Rarely:** A small of your users are likely to encounter the issue *or* those who do encounter it do so rarely
 
-
-### Example: Evaluating a Data Catalog
-
-***Heuristic #4 - Consistency and Standards***
-- Empty fields are denoted in multiple ways and with different text formatting, for example: “No data available.” “No data found” “-” “--” “No Tags added” “No Description” “No description”
-    - *Severity:* minor, often
-    - *Recommendation:* Apply a consistent scheme for indicating a lack of information, including punctuation and capitalization. 
-Ensure that it is clear whether the data cannot be retrieved or if it was never provided.
-
-
+## Examples
 ### Example: Evaluating an AI agent with chat interface
-
 ***Heuristic #1 - Visibility of System Status***
 - Queries are not named/IDed but previous queries are discussed by the agent, making it ambiguous what is the object of discussion. For example: The agent says, “Let me check what went wrong with the query,” and “Let me wait and check the status,” but doesn’t say which query is being checked.
     - *Severity:* moderate, often
     - *Recommendation:* Provide IDs for queries so that they can be explicitly referenced.
+
+### Example: Evaluating a math library
+***Heuristic #2 - Match Between System and Prior Expectations***
+- The initial design used the word “evaluate” to mean “compute the value of”, when related to the sparse grid surrogate. However, with the more recent introduction of neural network models, the word “evaluate” now has a different meaning in the context of surrogate modeling.
+    - *Severity:* minor, often
+    - *Recommendation:* Keep the existing evaluate method for backwards compatibility but also add a new method with a more appropriate name, e.g., “compute” or “simulate” or “value at” 
+
+### Example: Evaluating a data catalog
+***Heuristic #3 - Internal Consistency***
+- Empty fields are denoted in multiple ways and with different text formatting, for example: “No data available.” “No data found” “-” “--” “No Tags added” “No Description” “No description”
+    - *Severity:* minor, often
+    - *Recommendation:* Apply a consistent scheme for indicating a lack of information, including punctuation and capitalization. Ensure that it is clear whether the data cannot be retrieved or if it was never provided.
+
+### Example: Evaluating a container tool
+***Heuristic #4 - User Control and Freedom***
+- The users can generally use “Ctrl+C” to stop the process. However, this assumes the users are familiar with basic linux commands.
+    - *Severity:* moderate, sometimes
+    - *Recommendation:* Before the actual runnings, information/tips about checking/changing the running status can be printed on the screen so users know what to do after running.
+
+### Example: Evaluating a math library
+***Heuristic #5 - Recognition Rather Than Recall***
+- The sparse grid class has multiple modes (e.g., local vs. global basis, batch-adaptive vs. dynamic construction) of operations and MANY methods. Some methods are only usable/accessible in some modes. While objects can always be thoroughly queried, the documentation can benefit better clarification on the categories.
+    - *Severity:* moderate, sometimes
+    - *Recommendation:* Improve the documentation for people that are not familiar with the intricacies of math theory of sparse grids and hence may struggle to understand why some methods are disabled or throw exceptions. Make clearer what methods are available under what circumstances
+
+### Example: Evaluating a data catalog
+***Heuristic #6 - Flexibility and Efficiency of Use***
+- Users have no way of quickly getting to their most important datasets—they have to search or scroll through all of their datasets to find the ones they are looking for, even if they visit it daily.
+    - *Severity:* moderate, often
+    - *Recommendation:* Allow users to bookmark datasets and display those prominently so they can be accessed very quickly
+
+### Example: Evaluating a data catalog
+***Heuristic #7 - Direct Attention Judiciously***
+- Badges showing schema types (e.g. string) have a color not used elsewhere (purple), drawing the eye to a relatively unimportant GUI component.
+    - *Severity:* minor, often
+    - *Recommendation:* Use accenting colors only for high priority information. Make type badges blue or grey like other badges.
+
+### Example: Evaluating a container tool
+***Heuristic #8 - Guardrails for Error Prevention***
+- By default, the image files are saved on the login node. This should be combined with the migrate command to avoid wasted spaces and losing tracking of built images. However, users may not know this and forget the second step.
+    - *Severity:* moderate, sometimes
+    - *Recommendation:* Add a constraint to users while building the images and ask them whether to “migrate” the images before they leave the session, warning them of the consequences of not doing so. The default should be set to a safer choice which is doing the “migrate”.
+
+### Example: Evaluating a modeling code
+***Heuristic #9 - Help Users Recognize, Diagnose, and Recover from Errors***
+- There are multiple occasions where the code aborts with no helpful information
+    - *Severity:* critical, sometimes
+    - *Recommendation:* Continue to add checks that will generate useful print output rather than just crashes
+
+### Example: Evaluating an AI agent with chat interface
+***Heuristic #10 - Help and Documentation***
+- Some terms the agent uses in chat may be jargon to novice users but getting them defined would require interrupting the current query or leaving the interface.
+    - *Severity:* minor, sometimes
+    - *Recommendation:* Identify key terms of art and ensure that when used by the agent, a definition is provided within the interface.
 
 ## FAQ
 **Isn’t this subjective?**
