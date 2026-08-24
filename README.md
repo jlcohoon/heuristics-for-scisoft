@@ -9,7 +9,7 @@ Quick link to the heuristics and evaluation template: [heuristic-eval.md](/heuri
 4. [Examples](#examples)
 5. [FAQ](#faq)
 6. [How we adapted the heuristics](#how-we-adapted-the-heuristics)
-7. [Contact and Get Involved](#contact-and-get-involved)
+7. [Contact and get Involved](#contact-and-get-involved)
 
 ## Why heuristic evaluation
 Conducting a heuristic evaluation allows you to systematically identify usability issues in your product. By reviewing your own tool in light of these heuristics, you may notice details that went unseen previously or violations of best practices you were unaware of. A heuristic evaluation like this can be applied to any user interface, meaning any digital product that a user interacts with: a website, an app, a command line tool, a software library, etc.
