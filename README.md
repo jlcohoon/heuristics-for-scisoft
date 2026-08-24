@@ -1,7 +1,7 @@
 # An Approach to Heuristic Evaluation for Scientific Software
 Jakob Nielsen, a leading authority on usability, established [10 general principles for interaction design](https://www.nngroup.com/articles/ten-usability-heuristics/). These *heuristics* define best practices for implementing intuitive user experiences. However, scientific software developers often struggle to apply these heuristics to their work, as their software may requires complex interfaces or have no GUI. To bridge this gap, the [PESO project](https://pesoproject.org/) and [CASS](https://cass.community/) have adapted Nielsen's heuristics for scientific software. Use this repo to learn the heuristics and conduct an evaluation of your own software tool.
 
-Quick link to the evaluation template: [heuristic-eval.md](/heuristic-eval.md)
+Quick link to the heuristics and evaluation template: [heuristic-eval.md](/heuristic-eval.md)
 
 ## Table of Contents
 1. [Why heuristic evaluation](#why-heuristic-evaluation)
