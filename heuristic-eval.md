@@ -20,7 +20,7 @@ Your product should always keep users informed about what is going on, through a
     -   *Severity:* [critical/moderate/minor, often/sometimes/rarely]
     -   *Recommendation:* [optional, your recommendation here]
 
-## 2 - Match Between System and A Priori Expectations
+## 2 - Match Between System and Prior Expectations
 The system should reflect norms that its users are already familiar with so that the tool behaves as they expect. The tool should speak the users' language (whether that's a scientific domain or software engineering terminology) rather than use internal jargon. Follow conventions your anticipated users will be familiar with.
 - Will users be familiar with the terminology used in the interface or commands? 
 - Do the tool’s controls follow conventions and workflows users will already know?
