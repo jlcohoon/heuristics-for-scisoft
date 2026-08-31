@@ -136,7 +136,7 @@ The [STRUDEL](https://strudel.science/) team [first adapted](https://zenodo.org/
 - People were uncertain about how to evaluate severity, how much time to spend, and exactly what order they should work in
 - There was uncertainty about how to keep things simple for users and provide needed complexity; the developers were unsure how accessible they should be making their tool
 
-Based on these findings and the examples produced by the five developers, we updated the instructions and FAQs, reworded the titles and descriptions of some heuristics, revised prompt questions, and transitioned away from Google Docs to Github. 
+Based on these findings and the examples produced by the five developers, we updated the instructions and FAQs, reworded the titles and descriptions of some heuristics, revised prompt questions, added more examples, and transitioned away from Google Docs to Github. 
 
 ## Contact and get involved
 If you encounter issues with this documentation or during your heuristic evaluation, reach out to the [CASS User/Developer Experience working group](https://cass.community/working-groups/user-developer-experience.html) via email or during one of their regular discussion hours. You may also [open an issue](/../../issues).
