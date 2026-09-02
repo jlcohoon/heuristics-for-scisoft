@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this tool, please cite it as below."
+authors:
+- family-names: "STRUDEL"
+- family-names: "CASS"
+- family-names: "PESO"
+title: "Heuristic Evaluation Template"
+version: 2.0.0
+doi: 10.5281/zenodo.20517041
+date-released: 2026-09-02
+url: "https://github.com/cass-community/heuristics-for-scisoft"
