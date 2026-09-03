@@ -9,7 +9,7 @@ Quick link to the heuristics and evaluation template: [heuristic-eval.md](/heuri
 4. [Examples](#examples)
 5. [FAQ](#faq)
 6. [How we adapted the heuristics](#how-we-adapted-the-heuristics)
-7. [Contact and Contributing](#contact-and-contributing)
+7. [Contact and contributing](#contact-and-contributing)
 8. [Citation](#citation)
 
 ## Why heuristic evaluation
@@ -139,7 +139,7 @@ The [STRUDEL](https://strudel.science/) team [first adapted](https://zenodo.org/
 
 Based on these findings and the examples produced by the five developers, we updated the instructions and FAQs, reworded the titles and descriptions of some heuristics, revised prompt questions, added more examples, and transitioned away from Google Docs to Github. 
 
-## Contact and Contributing
+## Contact and contributing
 If you encounter issues with this documentation or during your heuristic evaluation, reach out to the [CASS User/Developer Experience working group](https://cass.community/working-groups/user-developer-experience.html) via email or during one of their regular discussion hours. You may also [open an issue](/../../issues).
 
 We are seeking more examples of how people have applied the heuristic evaluation process to their software. Please get in touch or open a pull request to share your example. You can add a small one to the list above or we can link to your full evaluation.
