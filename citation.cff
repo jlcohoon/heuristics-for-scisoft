@@ -11,3 +11,10 @@ date-released: 2026-09-02
 url: "https://github.com/cass-community/heuristics-for-scisoft"
 preferred-citation:
  type: generic
+ authors:
+ - family-names: "STRUDEL"
+ - family-names: "CASS"
+ - family-names: "PESO"
+ title: "Heuristic Evaluation Template"
+ doi: 10.5281/zenodo.20517041
+ date-released: 2026-06-02
