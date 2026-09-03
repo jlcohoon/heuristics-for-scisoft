@@ -163,4 +163,4 @@ Thanks go to the following contributors:
 ## Citation
 If you use this tool and need to cite it, please use the [citation.cff](citation.cff) file or the following citation: 
 
-STRUDEL, CASS, & PESO. (2026). Heuristic Evaluation Template (Version 2.0.0) [Computer software]. https://doi.org/10.5281/zenodo.20517041
+STRUDEL, CASS, & PESO. (2026). Heuristic Evaluation Template. https://doi.org/10.5281/zenodo.20517041
