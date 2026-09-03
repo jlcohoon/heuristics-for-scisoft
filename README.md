@@ -9,7 +9,8 @@ Quick link to the heuristics and evaluation template: [heuristic-eval.md](/heuri
 4. [Examples](#examples)
 5. [FAQ](#faq)
 6. [How we adapted the heuristics](#how-we-adapted-the-heuristics)
-7. [Contact and get involved](#contact-and-get-involved)
+7. [Contact and Contributing](#contact-and-contributing)
+8. [Citation](#citation)
 
 ## Why heuristic evaluation
 Conducting a heuristic evaluation allows you to systematically identify usability issues in your product. By reviewing your own tool in light of these heuristics, you may notice details that went unseen previously or violations of best practices you were unaware of. A heuristic evaluation like this can be applied to any user interface, meaning any digital product that a user interacts with: a website, an app, a command line tool, a software library, etc.
@@ -138,7 +139,28 @@ The [STRUDEL](https://strudel.science/) team [first adapted](https://zenodo.org/
 
 Based on these findings and the examples produced by the five developers, we updated the instructions and FAQs, reworded the titles and descriptions of some heuristics, revised prompt questions, added more examples, and transitioned away from Google Docs to Github. 
 
-## Contact and get involved
+## Contact and Contributing
 If you encounter issues with this documentation or during your heuristic evaluation, reach out to the [CASS User/Developer Experience working group](https://cass.community/working-groups/user-developer-experience.html) via email or during one of their regular discussion hours. You may also [open an issue](/../../issues).
 
 We are seeking more examples of how people have applied the heuristic evaluation process to their software. Please get in touch or open a pull request to share your example. You can add a small one to the list above or we can link to your full evaluation.
+
+### Contributors
+Thanks go to the following contributors:
+
+- Ann Almgren
+- Johanna Cohoon
+- Rajshree Deshmukh
+- Dan Gunter
+- Xiaoye Sherry Li
+- Cody O'Donnell
+- Drew Paine
+- Sarah Poon
+- Lavanya Ramakrishnan
+- Philip Roth
+- Miroslav Stoyanov
+- Bigeng Wang
+
+## Citation
+If you use this tool and need to cite it, please use the [citation.cff](citation.cff) file or the following citation: 
+
+STRUDEL, CASS, & PESO. (2026). Heuristic Evaluation Template (Version 2.0.0) [Computer software]. https://doi.org/10.5281/zenodo.20517041
